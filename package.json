@@ -20,5 +20,8 @@
     "experience"
   ],
   "author": "Abreham",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0"
+  }
 }
