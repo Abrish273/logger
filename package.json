@@ -1,0 +1,24 @@
+{
+  "name": "logger",
+  "version": "1.0.0",
+  "description": "this is a customized logger package particularly used for debugging purposes in order to minimize the hustle of developers and to have the best developer experience.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-dev": "nodemon index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/Abrish273/logger.git"
+  },
+  "keywords": [
+    "logging",
+    "debugging",
+    "best",
+    "developers",
+    "experience"
+  ],
+  "author": "Abreham",
+  "license": "MIT"
+}
