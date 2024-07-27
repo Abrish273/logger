@@ -50,9 +50,9 @@ Whether you're debugging complex applications or simply want a clear and colorfu
 MIT License. See the LICENSE file for details.
 
 🤝 Contributing
-We welcome contributions! Please see our contributing guidelines for more information.
+We welcome contributions! 
 
 🧑‍💻 Author
-Your Name
+Abreham Tilahun 
 
 
