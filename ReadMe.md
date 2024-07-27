@@ -1,6 +1,6 @@
-# My Logger Package
+# logger-easy
 
-**My Logger Package** is a powerful and flexible logging tool for Node.js that enhances your development experience with colorized output and customizable log formatting.
+**logger-easy** is a powerful and flexible logging tool for Node.js that enhances your development experience with colorized output and customizable log formatting.
 
 ## 🚀 Features
 
@@ -50,9 +50,10 @@ Whether you're debugging complex applications or simply want a clear and colorfu
 MIT License. See the LICENSE file for details.
 
 🤝 Contributing
-We welcome contributions! 
+We welcome contributions!
 
 🧑‍💻 Author
-Abreham Tilahun 
+Abreham Tilahun
 
 
+```
