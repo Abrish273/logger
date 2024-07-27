@@ -37,19 +37,4 @@ const createLogger = (
   };
 };
 
-// Usage
-const logger = createLogger("debug"); // Default options: no timestamp, no level
-logger.info("This is an info message");
-logger.debug("This is a debug message");
-logger.warn("This is a warning message");
-logger.error("This is an error message");
-logger.success("This is a success message");
-
-// Example with timestamp and level enabled
-const loggerWithTimestampAndLevel = createLogger("debug", {
-  includeTimestamp: true,
-  includeLevel: true,
-});
-loggerWithTimestampAndLevel.info(
-  "This is an info message with timestamp and level"
-);
+export default createLogger;
