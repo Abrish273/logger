@@ -13,14 +13,13 @@
 Easily install the package via npm:
 
 ```bash
-npm install my-logger-package
-
+npm i logger-easy
 
 📜 Usage
 Integrate the logger into your project with minimal setup:
 
 
-import createLogger from 'my-logger-package';
+import createLogger from "logger-easy";
 
 //Default logger with no timestamps or log levels
 const logger = createLogger('debug');
@@ -35,4 +34,25 @@ logger.success('This is a success message');
 // Logger with timestamps and log levels
 const loggerWithDetails = createLogger('debug', { includeTimestamp: true, includeLevel: true });
 loggerWithDetails.info('This message includes timestamp and log level');
+
+⚙️ Configuration
+Customize your logging experience:
+
+includeTimestamp: Add timestamps to log messages (default: false).
+includeLevel: Include log levels in messages (default: false).
+
+const logger = createLogger('info', { includeTimestamp: true, includeLevel: true });
+
+🚀 Get Started
+Whether you're debugging complex applications or simply want a clear and colorful log output, My Logger Package provides the flexibility and ease-of-use to streamline your development workflow.
+
+📄 License
+MIT License. See the LICENSE file for details.
+
+🤝 Contributing
+We welcome contributions! Please see our contributing guidelines for more information.
+
+🧑‍💻 Author
+Your Name
+
 

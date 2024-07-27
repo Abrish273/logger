@@ -1,6 +1,6 @@
 {
-  "name": "logger",
-  "version": "1.0.0",
+  "name": "logger-easy",
+  "version": "1.1.0",
   "description": "this is a customized logger package particularly used for debugging purposes in order to minimize the hustle of developers and to have the best developer experience.",
   "main": "index.js",
   "type": "module",
